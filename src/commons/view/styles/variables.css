@@ -1,0 +1,108 @@
+:root {
+  /*Colors*/
+  --black-color: #212429;
+  --white-color: #fff;
+  --gray-color--100: #f8f9fa;
+  --gray-color--200: #dde2e5;
+  --gray-color--300: #acb5bd;
+  --gray-color--400: #495057;
+
+  --blue-color: #4263eb;
+  --purple-color: #7048e8;
+  --pink-color: #f784ad;
+
+  /* Properties of display */
+  --size-base: 4;
+  --size-xxs: calc(((var(--size-base)) / var(--root-font-size)) * 1rem);
+  --size-xs: calc(((var(--size-base) * 2) / var(--root-font-size)) * 1rem);
+  --size-s: calc(((var(--size-base) * 3) / var(--root-font-size)) * 1rem);
+  --size-m: calc(((var(--size-base) * 4) / var(--root-font-size)) * 1rem);
+  --size-l: calc(((var(--size-base) * 6) / var(--root-font-size)) * 1rem);
+  --size-xl: calc(((var(--size-base) * 8) / var(--root-font-size)) * 1rem);
+  --size-xxl: calc(((var(--size-base) * 16) / var(--root-font-size)) * 1rem);
+
+  /* border*/
+  --border-size--s: 1px;
+  --border-size--m: 2px;
+  --border-size--l: 3px;
+
+  /*border radius*/
+  --border-radius--s:calc((var(--size-base)*1px))
+  --border-radius--m:calc(((var(--size-base) *1.5) *1px));
+  --border-radius--l:calc(((var(--size-base) *2) *1px));   
+  --border-radius--circle : 50%;
+
+  /* opacity*/
+  --opacity--s: 0.8;
+  --opacity--m: 0.5;
+  --opacity--l: 0.3;
+  --opacity--xl: 0.1;
+
+  /* Heights*/
+  --height--s: calc(var(--size-base) * 12 * 1rem);
+  --height--m: calc(var(--size-base) * 14 * 1rem);
+  --height--l: calc(var(--size-base) * 16 * 1rem);
+
+  /*Width*/
+  --witdh--s: 25%;
+  --witdh--m: 50%;
+  --witdh--l: 100%;
+
+  /*buttons */
+    --button-space--s: var(--size-s) var(--size-m);
+  /* App colors*/
+  --primary-color: var(--blue-color);
+  --secondary-color: var(--purple-color);
+  --tertiary-color: var(--pink-color);
+    
+  /*App status */
+  --status--error:#F03D3E;
+  --status--success:#374FC7;
+  --status--warning:#ffc107;
+
+  /* Background Shadows*/
+  --background--shadows: 0 4px 4px var(--black-color);
+
+  /* Fonts*/
+  --primary-font--thin-italic: "roboto-thin-italic";
+  --primary-font--thin: "roboto-thin";
+
+  --primary-font--light-italic: "roboto-light-italic";
+  --primary-font--light: "roboto-light";
+
+  --primary-font--regular-italic: "roboto-regular-italic";
+  --primary-font--regular: "roboto-regular";
+
+  --primary-font--medium-italic: "roboto-medium-italic";
+  --primary-font--medium: "roboto-medium";
+
+  --primary-font--bold-italic: "roboto-bold-italic";
+  --primary-font--bold: "roboto-bold";
+
+  --primary-font--black-italic: "roboto-black-italic";
+  --primary-font--black: "roboto-black";
+
+  /* Typography */
+  --root-font-size: 16;
+
+  --h1-size: calc((50 / var(--root-font-size)) * 1rem);
+  --h1-line-height: calc((59 / var(--root-font-size)) * 1rem);
+
+  --h2-size: calc((38 / var(--root-font-size)) * 1rem);
+  --h2-line-height: calc((45 / var(--root-font-size)) * 1rem);
+
+  --h3-size: calc((28 / var(--root-font-size)) * 1rem);
+  --h3-line-height: calc((33 / var(--root-font-size)) * 1rem);
+
+  --h4-size: calc((21 / var(--root-font-size)) * 1rem);
+  --h4-line-height: calc((25 / var(--root-font-size)) * 1rem);
+
+  --h5-size: calc((12 / var(--root-font-size)) * 1rem);
+  --h5-line-height: calc((14 / var(--root-font-size)) * 1rem);
+
+  --p-size: calc((16 / var(--root-font-size)) * 1rem);
+  --p-line-height: calc((19 / var(--root-font-size)) * 1rem);
+
+  --small-size: calc((12 / var(--root-font-size)) * 1rem);
+  --small-line-height: calc((14 / var(--root-font-size)) * 1rem);
+}
